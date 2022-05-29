@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentation.MainController">
+   <children>
+      <Button fx:id="buttonClients" layoutX="251.0" layoutY="113.0" mnemonicParsing="false" onAction="#handleManageClients" text="Manage clients" />
+      <Button fx:id="buttonProducts" layoutX="245.0" layoutY="173.0" mnemonicParsing="false" onAction="#handleManageProducts" text="Manage products" />
+      <Button fx:id="buttonOrders" layoutX="251.0" layoutY="244.0" mnemonicParsing="false" onAction="#handleManageOrders" text="Manage orders" />
+   </children>
+</AnchorPane>
